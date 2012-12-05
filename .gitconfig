@@ -5,3 +5,4 @@
 	editor = vi
 [merge]
 	tool = vimdiff
+
