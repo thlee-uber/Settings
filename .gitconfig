@@ -1,0 +1,7 @@
+[user]
+	name = Tsung-Hsien Lee
+	email = tsung.hsien.lee@gmail.com
+[core]
+	editor = vi
+[merge]
+	tool = vimdiff
