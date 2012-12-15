@@ -2,6 +2,9 @@ if [ -f ~/.bashrc ]; then
   source ~/.bashrc
 fi
 
+# source git autocompletion
+source ~/.git-completion.bash
+
 # for easily navigation
 export CDPATH=.:~
 
@@ -14,6 +17,9 @@ alias cd5="cd ../../../../.."
 
 # alias for ls
 alias ls="ls -F"
+
+# alias for top
+alias top="top -o cpu"
 
 # create directory and cd to that directory
 function mkdircd () { mkdir -p "$@" && eval cd "\"\$$#\""; }
